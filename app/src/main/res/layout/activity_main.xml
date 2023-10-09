@@ -36,6 +36,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/gray"
         android:text="@string/next_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,8 +49,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="36dp"
+        android:background="@drawable/predict_button"
         android:text="@string/high_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -59,8 +62,10 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="36dp"
+        android:background="@drawable/predict_button"
         android:text="@string/low_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
