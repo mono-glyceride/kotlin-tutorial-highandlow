@@ -11,19 +11,18 @@
         android:id="@+id/hitText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="340dp"
         android:layout_marginTop="16dp"
         android:text="@string/hit_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/loseText"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/loseText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="52dp"
         android:text="@string/lose_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,41 +33,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="452dp"
         android:background="@drawable/next_button"
         android:text="@string/next_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#754E23"
         app:backgroundTint="@null"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/hitBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="300dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="52dp"
         android:background="@drawable/predict_button"
         android:text="@string/high_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/loseBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="288dp"
+        android:layout_marginStart="32dp"
         android:layout_marginBottom="52dp"
         android:background="@drawable/predict_button"
         android:text="@string/low_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
