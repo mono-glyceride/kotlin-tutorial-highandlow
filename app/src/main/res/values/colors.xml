@@ -5,4 +5,6 @@
     <color name="gray">#484C55</color>
     <color name="red">#E65B51</color>
     <color name="blue">#404BAA</color>
+    <color name="wine">#DC0000</color>
+    <color name="deep_red">#350000</color>
 </resources>
