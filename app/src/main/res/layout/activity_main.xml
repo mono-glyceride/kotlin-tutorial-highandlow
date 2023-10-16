@@ -15,11 +15,11 @@
         android:text="@string/hit_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/yellow"
-        app:layout_constraintStart_toStartOf="@+id/loseText"
+        app:layout_constraintStart_toStartOf="@+id/missText"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/loseText"
+        android:id="@+id/missText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
@@ -73,7 +73,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/youtCardImage"
         android:layout_width="140dp"
         android:layout_height="210dp"
         android:layout_marginStart="8dp"
@@ -86,7 +86,7 @@
         app:srcCompat="@drawable/trannpu" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/droidCardImage"
         android:layout_width="140dp"
         android:layout_height="210dp"
         android:layout_marginTop="56dp"
