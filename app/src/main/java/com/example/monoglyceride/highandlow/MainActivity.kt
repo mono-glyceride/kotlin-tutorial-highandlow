@@ -2,8 +2,12 @@ package com.example.monoglyceride.highandlow
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.monoglyceride.highandlow.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
     private val tag = "high and low"
     private var yourCard = 0
     private var droidCard = 0
