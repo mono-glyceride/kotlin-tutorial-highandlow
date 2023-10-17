@@ -38,6 +38,33 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun highAndLow(answer:Char){
+        showDroidCard()
+        answerd = true
+        val balance = droidCard - yourCard
+        if(balance == 0){
+            // when even do nothing
+        } else if((balance > 0 && answer == 'h')){
+            hitCount++
+            binding.hitText.text = getString(R.string.hit_text) + hitCount
+        } else if((balance < 0 && answer == 'l')){
+            hitCount++
+            binding.hitText.text = getString(R.string.hit_text) + hitCount
+        } else {
+            missCount++
+            binding.missText.text = getString(R.string.miss_text) + missCount
+        }
+        if (hitCount == 5){
+            binding.resultText.text = getString(R.string.win_text)
+            gameStart = false
+        } else if (missCount == 5){
+            binding.resultText.text = getString(R.string.lose_text)
+            gameStart = false
+        } else {
+            // do nothing
+        }
+    }
+
     override fun onResume() {
         super.onResume()
         hitCount = 0
