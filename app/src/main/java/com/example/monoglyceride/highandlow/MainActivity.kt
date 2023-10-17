@@ -20,6 +20,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.hitBtn.setOnClickListener{
+            if ((gameStart && !answerd)){
+                highAndLow('h')
+            }
+        }
+        binding.lowBtn.setOnClickListener{
+            if ((gameStart && !answerd)){
+                highAndLow('l')
+            }
+        }
+        binding.nextBtn.setOnClickListener {
+            if(gameStart){
+                drawCard()
+            }
+        }
     }
 
     override fun onResume() {
