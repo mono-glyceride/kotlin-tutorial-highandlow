@@ -97,4 +97,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/trannpu_black" />
 
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="89dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
