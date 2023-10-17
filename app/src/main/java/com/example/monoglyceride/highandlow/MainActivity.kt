@@ -64,6 +64,23 @@ class MainActivity : AppCompatActivity() {
             // do nothing
         }
     }
+    private fun showDroidCard(){
+        when(droidCard){
+            1 -> binding.droidCardImage.setImageResource(R.drawable.s1)
+            2 -> binding.droidCardImage.setImageResource(R.drawable.s2)
+            3 -> binding.droidCardImage.setImageResource(R.drawable.s3)
+            4 -> binding.droidCardImage.setImageResource(R.drawable.s4)
+            5 -> binding.droidCardImage.setImageResource(R.drawable.s5)
+            6 -> binding.droidCardImage.setImageResource(R.drawable.s6)
+            7 -> binding.droidCardImage.setImageResource(R.drawable.s7)
+            8 -> binding.droidCardImage.setImageResource(R.drawable.s8)
+            9 -> binding.droidCardImage.setImageResource(R.drawable.s9)
+            10 -> binding.droidCardImage.setImageResource(R.drawable.s10)
+            11 -> binding.droidCardImage.setImageResource(R.drawable.s11)
+            12 -> binding.droidCardImage.setImageResource(R.drawable.s12)
+            13 -> binding.droidCardImage.setImageResource(R.drawable.s13)
+        }
+    }
 
     override fun onResume() {
         super.onResume()
