@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="52dp"
-        android:text="@string/lose_text"
+        android:text="@string/miss_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/yellow"
         app:layout_constraintEnd_toEndOf="parent"
